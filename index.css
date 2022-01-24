@@ -1,32 +1,28 @@
 nav{
     display: flex;
-    width: 100%;
-    margin: 20px;
+    margin: 40px;
 }
 
 .premierclass{
     width: 100%;
     display: flex;
     flex-direction: row;
-
 }
 
 .comparto{
-    margin: 10px;
+    margin: 5px;
+    font-size: 45px;
     color: white;
     background-color: rgb(100, 100, 240);
     text-align: center;
     width: 25%
+    
 }
 
-/* .contact{
-    margin: 10px;
-    display: flex;
-} */
-
 .sousdiv{    
-    margin: 10px;
+    margin: 5px;
     display: flex;
+    justify-content: end;
     background-color: rgb(231, 222, 231);
     width: 75%;
 }
@@ -34,35 +30,35 @@ nav{
 .elements1{
     background-color: rgb(252, 157, 141);
     color: rgb(255, 255, 255);
-    margin: 5px;
+    margin: 10px;
     margin-top: 20px;
-    margin-left: 200px;
+
     text-align: center;
-    width: 100px;
+    width: 125px;
 }
 
 .elements2{
     background-color: white;
-    margin: 5px;
+    margin: 10px;
     margin-top: 20px;
     text-align: center;
-    width: 100px;
+    width: 125px;
 }
 
 .elements3{
     background-color: white;
-    margin: 5px;
+    margin: 10px;
     margin-top: 20px;
     text-align: center;
-    width: 100px;
+    width: 125px;
 }
 
 .elements4{
     background-color: white;
-    margin: 5px;
+    margin: 10px;
     margin-top: 20px;
     text-align: center;
-    width: 100px;
+    width: 125px;
 }
 
 .presentation{
@@ -86,6 +82,8 @@ nav{
 .compartolayout{
     background-color: rgb(176, 176, 192);
     margin: 10px;
+    padding: 45px;
+    font-size: 24px;
 }
 
 img{
@@ -95,4 +93,23 @@ img{
 .pourlesdeux{
     display: flex;
     flex-direction: column;
+}
+
+.emoji{
+    background-color: rgb(191, 123, 197);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.compartolayout button{
+    background-color: #c05e5e; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
