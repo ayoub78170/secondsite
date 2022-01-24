@@ -113,3 +113,23 @@ img{
     display: inline-block;
     font-size: 16px;
 }
+
+.compartolayout1{
+    background-color: rgb(176, 176, 192);
+    margin: 10px;
+    padding: 45px;
+    font-size: 24px;
+}
+
+.classzzz{
+    background-color: rgb(176, 176, 192);
+    margin: 10px;
+    padding: 45px;
+    font-size: 24px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
