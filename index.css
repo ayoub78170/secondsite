@@ -130,6 +130,6 @@ img{
 
 footer{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
 }
