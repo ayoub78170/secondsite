@@ -1,0 +1,98 @@
+nav{
+    display: flex;
+    width: 100%;
+    margin: 20px;
+}
+
+.premierclass{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.comparto{
+    margin: 10px;
+    color: white;
+    background-color: rgb(100, 100, 240);
+    text-align: center;
+    width: 25%
+}
+
+/* .contact{
+    margin: 10px;
+    display: flex;
+} */
+
+.sousdiv{    
+    margin: 10px;
+    display: flex;
+    background-color: rgb(231, 222, 231);
+    width: 75%;
+}
+
+.elements1{
+    background-color: rgb(252, 157, 141);
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    margin-top: 20px;
+    margin-left: 200px;
+    text-align: center;
+    width: 100px;
+}
+
+.elements2{
+    background-color: white;
+    margin: 5px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100px;
+}
+
+.elements3{
+    background-color: white;
+    margin: 5px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100px;
+}
+
+.elements4{
+    background-color: white;
+    margin: 5px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100px;
+}
+
+.presentation{
+    margin: 20px;
+}
+
+.titre03{
+    
+    background-color: rgb(50, 112, 206);
+}
+
+.titre04{
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+.separation{
+    background-color: rgb(98, 148, 255);
+}
+
+.compartolayout{
+    background-color: rgb(176, 176, 192);
+    margin: 10px;
+}
+
+img{
+    margin: 10px;
+}
+
+.pourlesdeux{
+    display: flex;
+    flex-direction: column;
+}
