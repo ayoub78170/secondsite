@@ -1,3 +1,7 @@
+body{
+    margin: 30px;
+}
+
 nav{
     display: flex;
     margin: 40px;
@@ -61,18 +65,17 @@ nav{
     width: 125px;
 }
 
-.presentation{
-    margin: 20px;
-}
-
 .titre03{
     
     background-color: rgb(50, 112, 206);
 }
 
+
 .titre04{
     background-color: yellowgreen;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
 }
 
 .separation{
@@ -81,18 +84,20 @@ nav{
 
 .compartolayout{
     background-color: rgb(176, 176, 192);
-    margin: 10px;
+    margin-left: 20px;
     padding: 45px;
     font-size: 24px;
 }
 
-img{
+/* img{
     margin: 10px;
-}
+} */
 
 .pourlesdeux{
     display: flex;
     flex-direction: column;
+    margin-right: 20px;
+    justify-content: space-between;
 }
 
 .emoji{
@@ -101,6 +106,7 @@ img{
     flex-direction: row;
     text-align: center;
     justify-content: space-around;
+    color: white;
 }
 
 .compartolayout button{
@@ -114,18 +120,29 @@ img{
     font-size: 16px;
 }
 
+.compartolayout1 button{
+    background-color: #494949; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 .compartolayout1{
     background-color: rgb(176, 176, 192);
-    margin: 10px;
+    /* margin: 10px; */
     padding: 45px;
     font-size: 24px;
 }
 
 .classzzz{
     background-color: rgb(176, 176, 192);
-    margin: 10px;
+    /* margin: 10px; */
     padding: 45px;
-    font-size: 24px;
+    font-size: 27px;
 }
 
 footer{
@@ -133,3 +150,60 @@ footer{
     flex-direction: column;
     text-align: center;
 }
+
+/* .titre{
+    display: flex;
+    justify-content: end;
+} */
+
+/* .liste{
+    text-align: center;
+} */
+
+.separationbleu{
+    background-color: rgb(50, 112, 206);
+}
+
+.classzzz{
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.classzzz button{
+    background-color: #7bc241; 
+    border: none;
+    color: white;
+    padding: 13px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.icone{
+    text-align: center;
+}
+
+.icone img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.sectionimage img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.sectionimage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* .de0a5{
+    display: flex;
+    flex-direction: ;
+    justify-content: space-between;
+} */
