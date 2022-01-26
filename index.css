@@ -66,7 +66,6 @@ nav{
 }
 
 .titre03{
-    
     background-color: rgb(50, 112, 206);
 }
 
@@ -96,9 +95,11 @@ nav{
 .pourlesdeux{
     display: flex;
     flex-direction: column;
-    margin-right: 20px;
+    margin-right: 27px;
     justify-content: space-between;
 }
+
+
 
 .emoji{
     background-color: rgb(191, 123, 197);
@@ -151,15 +152,6 @@ footer{
     text-align: center;
 }
 
-/* .titre{
-    display: flex;
-    justify-content: end;
-} */
-
-/* .liste{
-    text-align: center;
-} */
-
 .separationbleu{
     background-color: rgb(50, 112, 206);
 }
@@ -171,6 +163,10 @@ footer{
 .classzzz{
     margin-left: 20px;
     font-size: 16px;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0);
 }
 
 .classzzz button{
@@ -198,13 +194,14 @@ footer{
     width: 190px;
     height: 190px;
     object-fit: cover;
-    margin: 30px;
+margin: 30PX;
 }
 
 .sectionimage{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    
+    justify-content: space-between;
 }
 
 .titre03{
