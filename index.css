@@ -7,7 +7,7 @@ nav{
     margin: 30px;
 }
 
-.premierclass{
+.class1{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -88,9 +88,7 @@ nav{
     font-size: 24px;
 }
 
-/* img{
-    margin: 10px;
-} */
+
 
 .pourlesdeux{
     display: flex;
@@ -99,6 +97,21 @@ nav{
     justify-content: space-between;
 }
 
+.compartolayout1{
+    background-color: rgb(176, 176, 192);
+    /* margin : 10px; */
+    padding: 45px;
+    font-size: 24px;
+
+}
+
+.compartolayout2{
+    background-color: rgb(176, 176, 192);
+    margin-top: 10px;
+    padding: 45px;
+    font-size: 24px;
+
+}
 
 
 .emoji{
@@ -132,16 +145,11 @@ nav{
     font-size: 16px;
 }
 
-.compartolayout1{
-    background-color: rgb(176, 176, 192);
-    /* margin: 10px; */
-    padding: 45px;
-    font-size: 24px;
-}
+
 
 .classzzz{
     background-color: rgb(176, 176, 192);
-    /* margin: 10px; */
+    margin: 10px;
     padding: 45px;
     font-size: 27px;
 }
@@ -165,7 +173,7 @@ footer{
     font-size: 16px;
 }
 
-button:hover{
+button :hover{
     background-color: rgba(0, 136, 169, 0);
 }
 
@@ -178,6 +186,10 @@ button:hover{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.classzzz button :hover{
+    background-color: rgba(0, 136, 169, 0);
 }
 
 .icone{
@@ -217,10 +229,11 @@ margin: 30PX;
 .liste{
     display: flex;
     flex-direction: row;
+    
 }
 nav ul{
     padding: 0;
-    /* text-align: end; */
+    text-align: end;
     margin: 0;
 }
 nav ul li{
@@ -234,4 +247,8 @@ nav ul li{
     width: 40px;
     height: 40px;
     object-fit: cover;
+}
+
+#monbtn{
+    background-color: rgba(0, 136, 169, 0);
 }
